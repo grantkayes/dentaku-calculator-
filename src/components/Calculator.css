@@ -1,0 +1,24 @@
+.calculator-main {
+  width: 400px;
+  height: 600px;
+  margin: auto;
+  background-color: black;
+  display: inline-block;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 1px solid white;
+}
+
+.screen {
+  height: 200px;
+  width: 100%
+}
+
+.buttons {
+  height: 400px;
+  margin-left: 5%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;  
+}
