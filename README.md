@@ -1,3 +1,4 @@
 #Calculator
+#Todo
 
-yeah
+finish operator.js file
