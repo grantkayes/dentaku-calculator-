@@ -1,8 +1,23 @@
 .button {
+  padding: 20px 0 0 0;
   background-color: white;
   width: 60px;
-  height: 60px;
+  height: calc(60px - 20px);
   border-radius: 100px;
   margin-bottom: 10px;
   font-weight: bold;
+  text-align: center;
+}
+
+.ripple {
+  background-position: center;
+  transition: background 0.8s;
+}
+.ripple:hover {
+  background: lightcoral radial-gradient(circle, transparent 1%, pink 1%) center/15000%;
+}
+.ripple:active {
+  background-color: pink;
+  background-size: 100%;
+  transition: background 0s;
 }
